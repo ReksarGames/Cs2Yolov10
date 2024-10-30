@@ -1,17 +1,17 @@
 
-# ApexYOLO Project
+# CS2YOLOv Project
 
 ## Project Description
 
-The ApexYOLO project focuses on developing and integrating various tools for working with the YOLO model, including training, data augmentation, auto-targeting, and a semi-automatic data collection system. Each script in the project serves a specific task, whether it's preparing a dataset, auto-targeting, or training the model.
-Currently only works with 4k resolution and 200 scaling
+The **CS2YOLOv** project focuses on developing and integrating various tools for working with the YOLO model specifically tailored for **Counter-Strike 2** (CS2). This includes scripts for training the YOLO model, data augmentation, and automating data collection for training purposes. Each script serves a specific task, whether it's preparing datasets, augmenting images, or training the model.
 
-## Main Project Scripts:
+Currently, the project is optimized for **4k resolution** and a **scaling factor of 200**.
 
-### splitDatasetFiles.py:
+## Main Project Scripts
 
-A script for evenly distributing photos and labels for training.
-Prepares training, validation, and test datasets by splitting images and corresponding labels into parts.
+### `splitDatasetFiles.py`
+
+A script for evenly distributing images and labels for training. Prepares training, validation, and test datasets by splitting images and corresponding labels into parts.
 
 **Usage:**
 ```bash
@@ -136,7 +136,7 @@ tensorboard --logdir=runs/yolo_training10/ApexEsp80
 
 ## Project Structure
 
-- **ApexYOLO/** — Root project folder.
+- **CS2YOLO/** — Root project folder.
 - **dataSet/** — Dataset used for training and testing.
 - **runs/** — Folder for saving logs, metrics, and training results.
 - **scripts/** — Folder containing the main project scripts.
