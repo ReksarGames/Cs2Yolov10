@@ -1,6 +1,9 @@
 
 # CS2YOLOv Project
 
+## This project is based on [Ape-xCV/Apex-CV-YOLO-v8-Aim-Assist-Bot?tab=readme-ov-file](https://github.com/Ape-xCV/Apex-CV-YOLO-v8-Aim-Assist-Bot?tab=readme-ov-file)
+
+
 ## Project Description
 
 The **CS2YOLOv** project focuses on developing and integrating various tools for working with the YOLO model specifically tailored for **Counter-Strike 2** (CS2). This includes scripts for training the YOLO model, data augmentation, and automating data collection for training purposes. Each script serves a specific task, whether it's preparing datasets, augmenting images, or training the model.
@@ -33,7 +36,7 @@ It also removes images and labels with incorrect classes, improving data quality
 python Albumentations.py
 ```
 
-### ApexBot.py:
+### main.py:
 
 This script implements an auto-targeting system based on the YOLO model, capturing frames from the screen and using a random cursor movement technique to target objects.
 
